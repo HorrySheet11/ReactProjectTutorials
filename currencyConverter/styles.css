@@ -1,0 +1,17 @@
+html{
+  font-family: century-gothic, sans-serif;
+  text-align:center;
+}
+
+body{
+  background-color:darkblue;
+
+}
+
+form{
+  background-color:white;
+  width:400px;
+  margin:10px auto;
+  border-radius:20px;
+  
+}
