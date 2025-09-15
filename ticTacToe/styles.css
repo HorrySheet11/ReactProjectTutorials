@@ -1,0 +1,22 @@
+html{
+  font-family: century-gothic, sans-serif;
+  text-align:center;
+}
+
+.Board{
+  margin:10px auto;
+  width:500px;
+}
+
+.grid{
+  margin:20px auto;
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-gap:25px;
+  justify-content:center;
+}
+
+.square{
+  width:75px;
+  height:75px;
+}
