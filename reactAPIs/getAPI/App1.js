@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import { generate, count } from "random-words";
 
 function App() {
   const [word,setWord] = useState();
@@ -9,7 +8,7 @@ function App() {
 
   useEffect(()=>{
     const randomWord = generate({maxLength: 10000});
-    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${randomWord}`)
+    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/hello`)
               .then((response)=>response.json()) 
               .then((data)=>{console.log(data)
                 setWord(data[0].word)
