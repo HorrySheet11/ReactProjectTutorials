@@ -46,7 +46,7 @@ const FormSubmission= () => {
         </label>
 
         <label> Completed?:
-          <select value={formData.completed} onChange={handleInputChange}>
+          <select name="completed" value={formData.completed} onChange={handleInputChange}>
             <option value='' selected disabled hidden >Select value</option>
             <option value={true} >True</option>
             <option value={false} >False</option>
